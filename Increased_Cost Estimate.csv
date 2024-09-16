@@ -1,0 +1,25 @@
+Estimate summary,,,,,,,,,
+Upfront cost,Monthly cost,Total 12 months cost,Currency,,,,,,
+0,19540.08,234480.96,USD,,,,,,
+,,* Includes upfront cost,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+Detailed Estimate,,,,,,,,,
+Group hierarchy,Region,Description,Service,Upfront,Monthly,First 12 months total,Currency,Status,Configuration summary
+My Estimate,US East (N. Virginia),,Amazon EC2,0,565.896,6790.75,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (t4g.2xlarge), Pricing strategy ( 1yr  No Upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon EC2,0,405.88,4870.56,USD,,"Tenancy (Shared Instances), Operating system (Linux), Workload (Consistent, Number of instances: 4), Advance EC2 instance (c5d.xlarge), Pricing strategy ( 1yr  No Upfront), Enable monitoring (disabled), DT Inbound: Not selected (0 TB per month), DT Outbound: Not selected (0 TB per month), DT Intra-Region: (0 TB per month)"
+My Estimate,US East (N. Virginia),,Amazon RDS for PostgreSQL,0,13581.44,162977.28,USD,,"Storage amount (100 GB), Storage volume (General Purpose SSD (gp2)), Nodes (2), Instance Type (db.m5.12xlarge), Utilization (On-Demand only) (100 %Utilized/Month), Deployment Option (Multi-AZ), Pricing Model (OnDemand), Total Size of Backup Processed for Export (GB) (1000 per month)"
+My Estimate,US East (N. Virginia),,Amazon Route 53,0,938,11256,USD,,"Hosted Zones (1), Basic Checks Within AWS (100), Number of Elastic Network Interfaces (10)"
+My Estimate,US East (N. Virginia),,S3 Standard,0,23,276,USD,,S3 Standard storage (1000 GB per month)
+My Estimate,US East (N. Virginia),,Data Transfer,0,0,0,USD,,
+My Estimate,US East (N. Virginia),,VPN Connection,0,567,6804,USD,,"Working days per month (22), Number of subnet associations (4)"
+My Estimate,US East (N. Virginia),,Application Load Balancer,0,36.43,437.16,USD,,Number of Application Load Balancers (1)
+My Estimate,US East (N. Virginia),,Network Load Balancer,0,22.43,269.16,USD,,"Number of Network Load Balancers (1), Processed bytes per NLB for TCP (1000 GB per month)"
+My Estimate,US East (N. Virginia),,Amazon CloudWatch,0,900,10800,USD,,Number of Metrics (includes detailed and custom metrics) (3000)
+My Estimate,US East (N. Virginia),,AWS Web Application Firewall (WAF),0,2500,30000,USD,,Number of Web Access Control Lists (Web ACLs) utilized (500 per month)
+,,,,,,,,,
+increase ec2 t4g.2xlarge from 3 instances to 4 instance ,,,,,,,,,
+increase ec2 c5d.xlarge from 3 instances to 4 instance ,,,,,,,,,
+increase Amazon RDS for PostgreSQL from db.m5.8xlarge to c5d x large,,,,,,,,,
+Acknowledgement,,,,,,,,,
+"* AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",,,,,,,,,
